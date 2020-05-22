@@ -1,0 +1,639 @@
+
+
+  * 
+  {
+          margin: 0;
+          padding: 0;
+
+  }
+
+
+ /*------------------------------------------N A V I G A T I O N - B A R ----------------------------------------------------*/
+
+
+ #nav-bar                          /*------navigation bar positioning--------*/
+
+ {
+ 	position: sticky;
+ 	top: 0;
+ 	z-index: 10;
+ }
+
+     
+.navbar-brand img                  /*------logo positioning and height--------*/
+{
+	  height: 40px;
+	  padding-left:50px;
+
+}
+
+
+
+.navbar-nav li                     /*------setting top and between text space--------*/
+{
+	padding: 0  20px;
+}
+
+
+
+
+
+
+.navbar-nav li a                    /*------navigation bar--------*/
+             
+{
+	   float: right;
+	   text-align: left;
+
+}
+
+
+
+#nav-bar ul li a:hover                /*------adding hover--------*/
+{
+   color: #007bff!important;          /*------color on hover--------*/
+}
+
+
+
+
+
+
+.navbar                               /*------navigation bar background color--------*/
+{
+	background: #fff;
+
+}
+
+
+
+
+
+
+.navbar-toggler                    /*------medium size the chrom page to see th toggle --------*/
+{
+	border: none!important;
+}
+
+
+.nav-link                        /*------font styling weight color and size--------*/
+
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+
+
+      /*---------------------------------------------------S   L   I   D   E   R  -----------------------------------------------*/
+
+#slider
+
+{
+
+	width: 100%
+
+}
+
+
+ /*---------------------------------------------------                -----------------------------------------------*/
+
+
+.carousel-item                            /*------image positioning--------*/                
+{
+	width: 100%;
+      	height: 540px;
+      	background-position: center;
+}
+
+
+
+.carousel-caption                        /*------caption position center--------*/
+{
+	 top: 50%;
+	 transform: translateY(-50%);
+	 bottom: initial!important;
+}
+
+ 
+.carousel-caption h5                     /*------font styling--------*/
+{
+   color: #fff;
+   font-size: 43px;
+
+}
+
+
+      /*---------------------------------------------------A  B  O  U  T--------------------------------------------------*/
+
+#about                                               /*------basic styling--------*/
+{
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color:#555;
+
+}
+
+#about .btn                                              /*------button padding--------*/
+{
+  margin-top: 20px;
+  margin-bottom:30px; 
+}
+
+
+
+.about-content 
+{
+  padding-top: 20px;
+
+}
+/*------navigation bar--------*/
+.skills-bar p
+{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+  
+/*------navigation bar--------*/
+
+.progress-bar
+{
+	border-radius: 16px;
+
+}
+.progress
+{
+	border-radius: 16px;
+}
+
+
+
+  /*---------------------------------------------------S E R V I C E S-------------------------------------------------*/
+
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),        /*------black gradient--------*/
+    url(../img/service.jpg);                                                  /*------image--------*/
+    background-size: cover;
+    background-position: center;    
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;                         
+} 
+
+#services h1                                /*------text positioning -------*/
+ {
+ 	text-align: center;
+ 	color:#efefef!important;
+ 	padding-bottom: 10px;
+ }
+ #services h1
+ {
+ 	text-align: center;
+ 	color:#efefef!important;
+ 	padding-bottom: 10px;
+ }
+
+ #services h1::after                 /*------text styling--------*/ 
+ {
+ 	content:'';                      /*------underline content--------*/
+ 	background:#efefef;
+ 	display: block;
+ 	height: 3px;
+ 	width: 170px;
+ 	margin:20px auto 5px;
+
+ }
+ .services
+
+ {
+ 	margin-top: 40px;
+ }
+
+ .icon                                       /*------icon styling--------*/ 
+ {
+ 	text-align: center;
+
+  font-size: 40px;                          /*------icon size--------*/                            
+  margin-top:20px auto ;
+  padding: 20px;
+  height: auto;
+  width:80px;
+  border: ;                              /*------try adding border:1px solid #fff;---to add border around icon-----*/ 
+  border-radius: ;                             /*------try adding border-raidus:50%; for circular outline around icon--------*/ 
+ }
+
+ #services .p                                      /*------paragraph styling--------*/                                  
+ {
+    font-size: 14px;
+ 	text-align: left;
+    margin-top: 20px
+    color:#ccc;
+
+ }
+
+ .services .col-md-3:hover                      /*------adding hover over cards--------*/  
+ {
+
+ 	background:#007bff;
+ 	cursor: pointer; 
+ 	transition: 0.7s;                             /*------change cursor theme--------*/  
+ }
+
+
+  /*---------------------------------------------------T  E  A  M -------------------------------------------------*/
+
+#team
+{
+	padding-top: 50px;
+	padding-bottom:50px;
+	color: #555;
+}
+
+h1                          /*------h1 styling--------*/  
+{
+	text-align: center;
+	color: #555!important;
+	padding-bottom:10px;
+
+}
+h1::after                     /*------underline--------*/  
+{
+	content: '';                   /*------underline--------*/  
+	background: #007bff;          /*------underline color-------*/  
+	display: block;
+	height: 3px;
+	width :170px;
+	margin: 20px auto 5px;
+}
+
+
+ .profile-pic                    /*------styling profile-------*/ 
+{
+	margin-top: 25px;
+}
+
+.profile-pic .img-box             /*------img box styling-------*/ 
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+
+}
+
+.profile-pic .img-box img                 /*------adding filter to image------*/ 
+{
+filter:grayscale(1);                      /*------black&white image-------*/ 
+}
+
+.profile-pic .img-box img:hover           /*------hover-------*/ 
+ {
+ 	filter: grayscale(0);                  /*------image color after hover-------*/ 
+ 	cursor: pointer;                      
+ }
+
+.profile-pic h2                            /*------h2 styling-------*/ 
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff!important
+}
+
+.profile-pic h3                            /*------h3 styling-------*/ 
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	
+}
+
+#team .fa                               /*------icon styling-------*/           
+{
+	height:25px;
+	width: 25px;
+	color: #000!important;
+	padding: 4px
+	border-radius:50%;
+}
+.img-box ul                               /*------box styling-------*/ 
+{
+	padding: 15px 0;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left:50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+
+.img-box ul li                            /*------icon inline block-------*/ 
+{
+	padding: 5px;
+	display: inline-block;
+
+}
+
+.img-box:hover ul                      /*------image box hover-------*/ 
+{
+	opacity: 1;
+}
+
+.img-box ul, .img-box ul li           /*------making trasition smoth at once  for both the classes-------*/ 
+{
+	transition: 0.5s;
+}
+
+  /*---------------------------------------------------P R O M O-------------------------------------------------*/
+
+#promo
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,               /*------image box hover-------*/ 
+	url(../img/p1.jpg);
+	background-size:cover;                                                              /*------use whole imgage-------*/ 
+	color:#fff ;                                                                         /*------text color-------*/ 
+	background-attachment:fixed;                      /*------background iamge remains fixed you can se animation{try removing fixed to check}-------*/          
+	padding: 100px;
+	font-family: sans-serif;
+	font-size:38px; 
+	text-align: center;
+    }
+
+
+
+
+
+
+
+
+  /*---------------------------------------------------P R I C E   P L A N S-------------------------------------------------*/
+#price
+{
+	padding: 40px 0;                    /*------top-bottom-------*/ 
+	background:#efefef;
+	padding-left: 40PX;
+	padding-right:40px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        0PX ; 
+  
+ } 
+ 
+.single-price                  /*------styling head-------*/ 
+{
+
+	margin: 50px ;
+	display: inline;
+	float: left;
+	width: 100% auto;                      /*------adding auto helps to set it properly------*/
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+.single-price:hover                             /*------black shadow hover-------*/ 
+{
+	box-shadow: 0 2px 20px #333;
+
+}
+
+.price-head                                          /*------styling box of price table------*/ 
+{
+	background-color: #2196f3;
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width:100%;
+}
+
+.price-head h2                                             /*------title of price table------*/      
+{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+.price-head p                                                        /*------content of price table------*/
+{
+	color: #ccc;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+#price span                                                        /*------content/month of price table------*/
+{
+	font-size: 15px;
+}
+
+.price-content                                                            /*------content box styling------*/
+{
+	display: inline;
+	float: left;
+	width:100%;
+	padding: 10 25px;
+
+}
+
+.price-content ul li                                                     /*------content styling----*/
+{
+
+	border-bottom: 1px solid #efefef;
+	padding: 15px 10px;
+	list-style: none;
+}
+ul li:last-child                                                      /*------removing last border-line/try------*/
+{
+	border: none;
+}
+
+
+.fa-check-circle                                                     /*------check icon styling---*/
+{
+	color: green;
+	margin-right: 10px;
+	font-size: 20px
+}
+
+ .fa-times-circle                                                   /*------check icon styling---*/
+{
+	color: red;
+	margin-right: 10px;
+	font-size: 20px
+}
+
+.price-button                                                  /*------button positioning---*/
+{
+display: inline;
+float: left;
+padding: 15px 15px 30px ;
+text-align: center;
+width: 100%;
+} 
+
+.buy-btn                                                           /*------button styling---*/
+{
+background-color: #2196f3;
+border-radius: 3px;
+display: inline-block;
+font-size: 14px;
+padding: 8px  50px;
+transition: 0.5s;
+}
+
+.buy-btn:hover                                                     /*------button changing color on hover styling---*/
+{
+	border-color: 1px solid #fff;
+	background-color:#3f51b5;
+}
+a                                                                /*------button styling---*/
+{
+	text-decoration: none!important;
+	color: #fff!important;
+}
+
+/*---------------------------------------------------T E S T I O N A L S -------------------------------------------------*/
+
+#Testimonials
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+#Testimonials .row
+{
+	margin-top: 30px;
+}
+
+.col-md-4
+{
+	margin: 40px auto;
+}
+
+.profile                                   /*------profile styling---*/
+{
+	padding: 70px 10px 10px;
+	background-color: #efefef;
+}
+
+.user 
+{
+	width: 120px;
+	height: 120px;
+	border-radius:50% ;               /*------circle imge---*/
+}
+
+.profile  img                         /*------image positioning---*/
+{
+	top: -60px;
+	position: absolute;
+	left: calc(50%-60px)
+	border:10px solid #fff;
+}
+
+.profile h3                       /*------name styling---*/
+{
+	font-size: 20px;
+	margin-top: 15px;
+	color: #007bff;
+}
+
+
+.profile span                        /*------job styling---*/
+{
+	font-size: 12px;
+	color: #333;
+	}
+
+
+blockquote::before                /*------adding before (")this following quotes represinting by{'\93'}(") styling---*/
+{
+	content: '\93';                                           
+	font-size: 50px;
+	color: #007bff;
+	position: relative;
+	line-height: 20px;
+	bottom: -15px;
+	right: 5px;
+}
+
+
+blockquote::after             /*------adding after (")this following quotes represinting by{'\94'}(") styling---*/
+{
+	content: '\94';                                           
+	font-size: 50px;
+	color: #007bff;
+	position: relative;
+	line-height: 10px;
+	bottom: -15px;
+	left: : 5px;
+}
+
+.profile:hover                             
+
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+    transition: 0.5s;
+}
+
+/*---------------------------------------------------G E T    I N   T O U C H -------------------------------------------------*/
+
+/*------------------------form codes--------------------------*/
+
+#Contact                                               /*------------------------box styling--------------------------*/
+{
+	background:#efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+
+.contact-form               
+{
+	padding: 15px;
+}
+
+.form-control                                            /*------------------------border styling--------------------------*/
+{
+	border-radius: 0 !important;
+	border:none!important;
+}
+ 
+ /*------------------------form codes2--------------------------*/
+
+::placeholder  
+  {                                            /*------------------------right side white space where text contains--------------------------*/
+	color: #999!important;
+}
+
+
+
+.follow                                    /*------------------------content styling-------------------------*/
+{
+	background:#fff;
+	padding: 10px;
+	margin: 15px;
+}
+
+ .contact-info .fa                  /*------------------------icon styling--------------------------*/
+
+{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+
+/*---------------------------------------------------F O O T E R -------------------------------------------------*/
+
+
+#footer                 /*------------------footer styling-----------------*/
+{
+	background: #333;
+	color: #fff;
+	padding: 10px;
+}
